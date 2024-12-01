@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Frontend</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </div>
+    <div class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Port<span>folio</span></a></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#services">Blog</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#teams">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello My name is</div>
+                <div class="text-2">Elyorbek Mengturaev</div>
+                <div class="text-3">I am <span class="typing"></span></div>
+                <a href="#contact">Contact-me</a>
+            </div>
+        </div>
+    </section>
+
+    <!--About me Section-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="image/Elyorbek.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">My name is Elyorbek, and I am a <span class="typing-2"></span></div>
+                    <p>Hello! I’m Elyorbek, a passionate frontend developer with a strong focus on building user-friendly and visually engaging websites. I specialize in HTML, CSS, and JavaScript, and I’m skilled in using React JS to create dynamic and responsive web applications. With React, I enjoy developing interactive interfaces that make user experiences smooth and engaging. My journey in web development has taught me to tackle complex problems, and I am always eager to stay updated on the latest trends and technologies in the field. I thrive on transforming creative ideas into functional, high-performance websites, and I'm excited to take on new challenges in the world of frontend development.</p>
+                    <a href="#">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--Services section-->
+     <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">Services</h2>
+            <div class="serv-content">
+               <div class="card">
+                   <div class="box">
+                    <ion-icon name="brush-outline"></ion-icon>
+                    <div class="text">Single Page Applications (SPAs)</div>
+                    <p>Develop fast and efficient single-page applications with, for example, React or Vue.</p>
+                   </div>
+               </div>
+
+               <div class="card">
+                <div class="box">
+                    <ion-icon name="trending-up-outline"></ion-icon>
+                 <div class="text">Responsive Web Design</div>
+                 <p>I create responsive websites that look great on any device, including mobile and tablets.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="box">
+                    <ion-icon name="code-outline"></ion-icon>
+                 <div class="text">Customizable Components</div>
+                 <p>Creating reusable components tailored to user needs.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+     <!--Skills section-->
+     <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills and experiences</div>
+                    <p>As a frontend developer, I have honed a wide range of skills to bring ideas to life on the web. Here are some of my core strengths:
+                        HTML & CSS: Proficient in building structured, clean, and responsive layouts with HTML and CSS, ensuring websites look great on all devices.
+                        JavaScript: Skilled in adding interactivity and functionality to web pages, making the user experience more engaging and seamless.
+                        React JS: Experienced in using React to build dynamic, single-page applications that provide a smooth and responsive user interface.</p>
+                    <a href="#about">More Information</a>
+                </div>
+                <div class="column right">
+                   <div class="bars">
+                       <div class="info">
+                           <span>HTML</span>
+                           <span>83%</span>
+                       </div>
+                       <div class="line html"></div>
+                   </div>
+                   <div class="bars">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>JavaScript</span>
+                        <span>77%</span>
+                    </div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>React</span>
+                        <span>67%</span>
+                    </div>
+                    <div class="line php"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Git</span>
+                        <span>62%</span>
+                    </div>
+                    <div class="line mysql"></div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--Team section-->
+     <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">My Projects</h2>
+           <div class="carousel owl-carousel ">
+               <a href="https://mini-spotify-react-app.netlify.app/">
+                <div class="card">
+                    <div class="box">
+                        <img src="image/Spotify-with-headphones-1.jpg" alt="">
+                        <div class="text">TuneStream: A Mini Spotify Clone</div>
+                        <p>This project was built using React.js and allows users to listen to and manage their music seamlessly. It leverages modern technologies such as React components, state management, and React Router to deliver a dynamic and interactive experience.</p>
+                    </div>
+                </div>
+               </a>
+                <a href="https://fluffy-kulfi-c56701.netlify.app/">
+                    <div class="card">
+                        <div class="box">
+                            <img src="image/gettyimages.jfif" alt="">
+                            <div class="text" style="font-size: 1.5rem;">Image Finder: Explore the World Through Getty Images</div>
+                            <p>This project is built using the Getty Images API and allows users to search for and discover images of any type effortlessly. Developed with Vanilla JavaScript, it focuses on providing a seamless and user-friendly experience for image exploration.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://luminous-muffin-ee9ed5.netlify.app/">
+                    <div class="card">
+                        <div class="box">
+                            <img src="image/for project.jfif" alt="">
+                            <div class="text">AI & CyberSecure: Innovating for a Safer Digital Future</div>
+                            <p>Explore the cutting-edge world of Artificial Intelligence and Cybersecurity through this dynamic website. Designed to educate and inspire, it offers insights into AI-driven solutions, best practices in digital safety, and the latest advancements in technology.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://elyor1227.github.io/Bootstrap-practice/">
+                    <div class="card">
+                        <div class="box">
+                            <img src="image/bootstrap.jfif" alt="">
+                            <div class="text">Showcasing Creativity with Bootstrap</div>
+                            <p>This mini portfolio website is designed using Bootstrap, featuring a sleek and responsive layout. The site demonstrates the power of Bootstrap for building professional and modern web interfaces efficiently.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://neon-torrone-51d3ff.netlify.app/#">
+                    <div class="card">
+                        <div class="box">
+                            <img src="image/social media.png" alt="">
+                            <div class="text">Social Connect: A Stunning Social Media Platform</div>
+                            <p>This mini social media platform is built with Vanilla JavaScript and features a sleek and modern design. It allows users to interact, share posts, and engage with content in a seamless way. The project showcases the power of Vanilla JS in creating responsive and dynamic web applications without relying on external frameworks.</p>
+                        </div>
+                    </div>
+                </a>
+           </div>
+        </div>
+    </section>
+
+    <!--Contact section-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact</h2>
+            <div class="contact-content">
+               <div class="column left">
+                   <div class="text">contact me</div>
+                   <p>I'm always open to new ideas and fun conversations. Whether it's about coding, design, or just some random fun stuff—don't hesitate to drop a line! Whether you have a burning question, a project you'd like to collaborate on, or just want to share something exciting, I'd love to hear from you. I believe in the power of great communication and collaboration, so feel free to reach out anytime. Let's connect, create, and make things happen!</p>
+               
+               <div class="icons">
+                   <div class="row">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <div class="info">
+                            <div class="head">Name:</div>
+                            <div class="sub-title">Elyorbek Mengturaev</div>
+                        </div>
+                   </div>
+                   <div class="row">
+                    <ion-icon name="earth-outline"></ion-icon>
+                    <div class="info">
+                        <div class="head">Address:</div>
+                        <div class="sub-title">Uzbekistan, Tashkent</div>
+                    </div>
+               </div>
+               <div class="row">
+                <ion-icon name="person-outline"></ion-icon>
+                <div class="info">
+                    <div class="head">Email:</div>
+                    <div class="sub-title">mengturayevelyorbek@gmail.com</div>
+                </div>
+                </div>
+            </div>
+            </div><!--column left-->
+            <div class="column right">
+                <div class="text">Follow Me</div>
+                <div class="social-media">
+                    <a href="https://github.com/Elyor1227" target="_blank" class="social-icon github" title="GitHub Profile">
+                        <ion-icon name="logo-github"></ion-icon> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/elyorbek-mengturayev-138351335/" target="_blank" class="social-icon linkedin" title="LinkedIn Profile">
+                        <ion-icon name="logo-linkedin"></ion-icon> LinkedIn
+                    </a>
+                    <a href="https://t.me/Elyorbek_devoloper" target="_blank" class="social-icon instagram" title="Instagram Profile">
+                        <ion-icon name="paper-plane-outline"></ion-icon> Telegram
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="App.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+</body>
+</html>
